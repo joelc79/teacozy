@@ -1,0 +1,107 @@
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.wrapper{
+/*  width: 1200px;
+  margin: 0px auto;*/
+}
+
+.header{
+  background-color: black;
+  height: 69px;
+  z-index:100;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  align-items: center;
+  min-width: 1200px;
+  border-bottom: 1px solid seashell;
+}
+
+.logo{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-tea-cozy-logo.png");
+  z-index: 101;
+  display: flex;
+  margin: 10px;
+  height: 50px;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+nav a {
+  padding: 10px;
+  width: auto;
+  color: seashell;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.main{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height:700px;
+  width: 1200px;
+  background-repeat: no-repeat;
+  display: flex;
+  z-index: 98;
+  align-items: center;
+  clear:both;
+  margin-bottom: 20px;
+  margin-left: -8px;
+}
+
+.mission{
+  background-color: black;
+  color: seashell;
+  height: auto;
+  display: flex-block;
+  min-width: 1200px;
+  z-index: 99;
+}
+
+h2{
+  text-align: center;
+}
+
+h4{
+  text-align: center;
+}
+
+.teas{
+  display: flex;
+  align-content: center;
+  width: 1200px;
+  flex-direction: column;
+}
+
+.tea_header{
+  margin-top: 20px;
+}
+
+.teas_block{
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  justify-content: center;
+}
+
+.tea_detail img{
+  height: 200px;
+  width: 300px;
+  display: flex;
+  margin: 10px;
+  align-self: center;
+}
